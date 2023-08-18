@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 # Welcome to ModellinQ MutliPhysics Team
 ## About us:  
