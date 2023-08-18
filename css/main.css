@@ -10,7 +10,7 @@ html, body {
 }
 .topnav {
 	overflow: hidden
-	background-color: #F333
+	background-color: #FFFFFF
 }
 .page-wrap {
   min-height: 100%;
@@ -25,7 +25,7 @@ html, body {
   height: 142px; 
 }
 .site-footer {
-  background: #F8F8F8;
+  background: #FFFFFF;
 }
 
 .site-footer p{
