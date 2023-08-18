@@ -1,6 +1,6 @@
 ---
 layout: theory
 title: Theory and Methods
-permalink: /theory/
+permalink: /pages/theory/
 ---
 # Theory and Methods
