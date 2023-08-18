@@ -1,5 +1,5 @@
 ---
-permalink: /docs/ModellinQ_Team/about.md
+permalink: /docs/ModellinQ_Team/:name/
 ---
 
 # Welcome to ModellinQ MultiPhysics Team.
