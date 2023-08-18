@@ -1,12 +1,16 @@
 body{
 	overflow-y: hidden;
-  text-align: left;
+  text-align: center;
 }
 * {
   margin: 0;
 }
 html, body {
   height: 100%;
+}
+.topnav {
+	overflow: hidden
+	background-color: #F333
 }
 .page-wrap {
   min-height: 100%;
@@ -25,7 +29,7 @@ html, body {
 }
 
 .site-footer p{
-  text-align: center;
+  text-align: right;
   padding-top: 2%;
 }
 			
