@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact
-permalink: /contact/
+permalink: /pages/contact/
 ___
 # For Communication :
 Email : nautilus@modellinq.science
