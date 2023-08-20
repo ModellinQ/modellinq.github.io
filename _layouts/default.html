@@ -2,7 +2,15 @@
 <html>
 <head>
 <style>
-  ul {
+.header{
+  background-color: #333
+  position: fixed;
+  margin:0;
+  padding:0;
+  width:100%;
+  }
+  
+  nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,11 +21,11 @@
   width: 100%;
 }
 
-li {
+nav li {
   float: right;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -26,7 +34,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 .active {
@@ -35,7 +43,9 @@ li a:hover {
 
 </style>
 </head>
-<header>
+<body>
+  <div class="header">
+  <nav>
   <ul>
         <li><a href="/pages/theory"> Theory and Methods </a></li>
         <li><a href="/pages/contact">Contact</a></li>
@@ -45,8 +55,9 @@ li a:hover {
 	
   <li style="float:left"><a class="active" href="/index">ModellinQ<sup>TM</sup></a></li>
   </ul>
-</header>
-<body>
+  </nav>
+</div>
+
   {{content}}
   </body>
 </html>
