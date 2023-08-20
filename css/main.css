@@ -3,14 +3,14 @@ body{
   text-align: justified;
 }
 * {
-  margin: 100px;
+  margin: 10px;
 }
 html, body {
   height: 100%;
 }
 .topnav {
 	overflow: hidden
-	background-color: #FFFFFF
+	background-color: #000000
 }
 .page-wrap {
   min-height: 100%;
