@@ -1,9 +1,9 @@
 body{
 	overflow-y: hidden;
-  text-align: center;
+  text-align: justified;
 }
 * {
-  margin: 0;
+  margin: 4;
 }
 html, body {
   height: 100%;
@@ -25,11 +25,11 @@ html, body {
   height: 142px; 
 }
 .site-footer {
-  background: #FFFFFF;
+  background: #000000;
 }
 
 .site-footer p{
-  text-align: right;
+  text-align: center;
   padding-top: 2%;
 }
 			
