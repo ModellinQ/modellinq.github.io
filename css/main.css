@@ -1,5 +1,7 @@
 .site-header{
-  background-color : #000000
+  background : #000000
+  }
+.site-header p{
   text-color: #FFFFFF
   }
 
