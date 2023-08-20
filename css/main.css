@@ -3,7 +3,7 @@ body{
   text-align: justified;
 }
 * {
-  margin: 4;
+  margin: 100px;
 }
 html, body {
   height: 100%;
@@ -15,14 +15,14 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px; 
+  margin-bottom: -80px; 
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 142px; 
+  height: 80px; 
 }
 .site-footer {
   background: #000000;
@@ -30,6 +30,7 @@ html, body {
 
 .site-footer p{
   text-align: center;
+  color: FFFFFF
   padding-top: 2%;
 }
 			
