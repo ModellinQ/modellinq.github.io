@@ -1,8 +1,8 @@
 .site-header{
-  background : #000000
+  background : #000000;
   }
 .site-header p{
-  text-color: #FFFFFF
+  text-color: #FFFFFF;
   }
 
 body{
@@ -10,7 +10,7 @@ body{
   text-align: justified;
 }
 * {
-  margin: 10;
+  margin-left: 10;
 }
 html, body {
   height: 100%;
@@ -37,7 +37,7 @@ html, body {
 
 .site-footer p{
   text-align: center;
-  text-color: FFFFFF
+  text-color: FFFFFF;
   padding-top: 2%;
 }
 			
