@@ -4,4 +4,4 @@ title: Contact
 permalink: /pages/contact/
 ---
 # For Communication :
-## Email : nautilus@modellinq.science
+### Email : nautilus@modellinq.science
