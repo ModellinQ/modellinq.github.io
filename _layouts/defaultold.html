@@ -1,22 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-	{% include head.html %}
-    <link rel="stylesheet" href="/css/main.css" />
+
+<style>
+.header{
+  background-color: #2A0134;
+  position: fixed;
+  margin:0;
+  padding:0;
+  width:100%;
+  }
+  
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A0134;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #000000;
+}
+html body{
+      padding-top: 65px;
+      font-family: "Open Sans",Sans-serif ;
+         }
+.footer{
+  background-color: #2A0134;
+  position: absolute;
+  bottom: 0;
+  margin:0;
+  padding:0;
+  width:100%;
+  }
+</style>
 </head>
-
 <body>
-    <header class="site-header">
-     {% include header.html %}
-    </header>
-	<div class="page-wrap">
+  <div class="header">
+  <nav>
+  <ul>
+    <li><a href="/pages/contact">Contact</a></li>
+        <li><a href="/pages/theory"> Theory and Methods </a></li>
+        <li><a href="/pages/tools">Tools</a></li>
+        <li><a href="/pages/people">People</a></li>
+	
+	
+  <li style="float:left"><a class="active" href="/index">ModellinQ<sup>TM</sup></a></li>
+  </ul>
+  </nav>
+</div>
+  {{content}}
+<form
+  action="https://formspree.io/f/xknlbdgv"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
-	{{content}}
-
-	</div>
-	<footer class="site-footer">
-		{% include footer.html %} 
-	</footer>
-</body>
+  
+  <div class="footer">
+    <p style="color:#FFFFFF;text-align:center;">ModellinQ<sup>TM</sup> is a part of FIVE ANGSTROM LLP, India. </p>
+    </div>
+  </body>
 </html>
-			
